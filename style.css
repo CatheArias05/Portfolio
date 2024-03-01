@@ -1,0 +1,93 @@
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #cdd3d8;
+  }
+
+  header {
+      background-color: #e72020;
+      color: #f5ecec;
+      text-align: center;
+      padding: 35px 0;
+  }
+
+  .container {
+      width: 80%;
+      margin: auto;
+      padding: 40px;
+  }
+
+  .datospersonales {
+      width: 80%;
+      margin: auto;
+      text-align: left;
+      padding: 40px;
+  }
+
+  .perfil {
+      text-align: center;
+      margin-bottom: 40px;
+  }
+
+  .perfil img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border: 5px solid #cadf0e;
+      box-shadow: 0 0 20px #0e0d0d1a;
+  }
+
+  .contacto {
+      background-color: #e72020;
+      color: #a82626;
+      text-align: center;
+      padding: 35px0;
+  }
+
+  .perfil h2 {
+      margin: 10px 0;
+  }
+
+  .perfil p {
+      color: #0a0a0a;
+  }
+
+  .seccion {
+      margin-bottom: 40px;
+  }
+
+  .seccion h3 {
+      color: #030303;
+  }
+
+  .seccion ul {
+      list-style-type: none;
+      padding: 0;
+  }
+
+  .seccion ul li {
+      margin-bottom: 10px;
+  }
+
+  @keyframes brillar {
+      0% {
+          color: #fff;
+          text-shadow: none;
+      }
+
+      50% {
+          color: #ff0;
+          text-shadow: 0 0 10px #ff0;
+      }
+
+      100% {
+          color: #fff;
+          text-shadow: none;
+      }
+  }
+
+  .brillante {
+      animation: brillar 1s infinite alternate;
+  }
